@@ -1,0 +1,9 @@
+Basic Functions In A Module
+
+1. printk()		:	printf for kernel
+2. module_init()	:	entry point of a module (first function called, main for modules)
+3. module_exit()	:	called on module removing/unloading
+4. module_param()	:	parameters for the module
+5. EXPORT_SYMBOL()	:	make it available to other modules (cant just use extern?)
+
+exported function (T) in proc/kallsysms
