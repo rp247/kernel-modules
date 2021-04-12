@@ -1,0 +1,8 @@
+What is a kernel module?
+- Code that can be loaded and unloaded from kernel.
+- Wont have to build or reboot the kernel for a minor change (not monolithic)
+
+Use case:
+- File systems (loading and unloading on demand)
+- Device drivers (for plug and play)
+- 
