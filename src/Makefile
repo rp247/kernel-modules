@@ -1,4 +1,5 @@
 # credits: https://github.com/rishiba/doc_linux_kernel_workbook/blob/master/doc/code/03_modules/hello_world/Makefile
+# ref: https://www.kernel.org/doc/html/v5.6/kbuild/modules.html
 #how do i pass argumets to this ahhh
 
 MODULE_FILENAME = 00-hello-kernel
@@ -22,8 +23,11 @@ insert: module
 
 remove:
 	sudo rmmod $(MODULE_FILENAME)
+	sudo dmesg | tail
 
 logs:
-	sudo dmesg -c
 	sudo insmod $(KO_FILE)
-	dmesg
+	sudo dmesg | tail
+
+all: module logs remove clean
+
