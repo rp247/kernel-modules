@@ -7,3 +7,9 @@ Tools to manipulate kernel modules
 5. modinfo	:	info about a module
 6. dmesg	:	kernel ring buffer print or control
 7. syslog	:	system logs
+
+
+Files regarding kernel modules
+
+1. /proc/modules	:	info about all modules
+2. 
