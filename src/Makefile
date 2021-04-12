@@ -1,21 +1,21 @@
 # credits: https://github.com/rishiba/doc_linux_kernel_workbook/blob/master/doc/code/03_modules/hello_world/Makefile
 #how do i pass argumets to this ahhh
 
-MODULE_FILENAME = hellokernel
+MODULE_FILENAME = 00-hello-kernel
 
-#obj-m   += $(MODULE_FILENAME).o
+obj-m   += $(MODULE_FILENAME).o
 KO_FILE  = $(MODULE_FILENAME).ko
 
-export ROOTB=/lib/modules/$(shell uname -r)/build M=$(PWD) 
+export ROOTD=/lib/modules/$(shell uname -r)/build M=$(PWD) 
 
 module:
-	make -C $(ROOTB) modules
+	make -C $(ROOTD) modules
 
 install:
-	make -C $(ROOTB) modules_install
+	make -C $(ROOTD) modules_install
 
 clean:
-	make -C $(ROOTB) clean
+	make -C $(ROOTD) clean
 
 insert: module
 	sudo insmod $(KO_FILE)
