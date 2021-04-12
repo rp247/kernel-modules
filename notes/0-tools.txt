@@ -1,0 +1,9 @@
+Tools to manipulate kernel modules
+
+1. insmod	:	insert module
+2. modprobe	: 	add or remove modules 
+3. rmmod 	:	remove module
+4. lsmod	:	list modules
+5. modinfo	:	info about a module
+6. dmesg	:	kernel ring buffer print or control
+7. syslog	:	system logs
