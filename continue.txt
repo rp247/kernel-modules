@@ -1,0 +1,5 @@
+hello world	:	 https://csea-iitb.github.io/IITBreachers-wiki/2021/02/28/Intro-to-Linux-Kernel-Modules.html
+modules 	:	https://tldp.org/LDP/lkmpg/2.6/html/x121.html, https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_modules.html#lab-objectives
+smp		:	https://linux-kernel-labs.github.io/refs/heads/master/lectures/smp.html
+kern api	:	https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_api.html#lab-objectives
+kdb		:	
