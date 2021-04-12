@@ -2,8 +2,11 @@
 modules for kernel what and how (tba)
 
 # Files and Directories
-1. Notes
+1. notes
 -  All the notes I took while learning about kernel modules 
+
+2. src
+-  My code for all my modules
 
 # References
 1. modules 
