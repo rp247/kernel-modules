@@ -14,4 +14,10 @@ modules for kernel what and how (tba)
 - https://lkw.readthedocs.io/en/latest/doc/05_proc_interface.html
 - https://tldp.org/LDP/lkmpg/2.6/html/index.html
 
+2. Makefile
+- https://www.kernel.org/doc/html/v5.6/kbuild/modules.html
+
+3. debugging
+- https://linux-kernel-labs.github.io/refs/heads/master/lectures/debugging.html
+
 cont: https://lkw.readthedocs.io/en/latest/doc/05_proc_interface.html
