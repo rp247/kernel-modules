@@ -7,9 +7,11 @@ Tools to manipulate kernel modules
 5. modinfo	:	info about a module
 6. dmesg	:	kernel ring buffer print or control
 7. syslog	:	system logs
-
+// search more tools (module-init-tools? depmod?)
 
 Files regarding kernel modules
 
-1. /proc/modules	:	info about all modules
-2. 
+- /proc/modules		:	info about all modules (what about a particular module? authorname and stuff)
+- /etc/modprobe.conf	:	config for when modprobe is called 
+- /etc/modules		:	modules to be loaded on boot
+- /lib/modules/.dep	:	dependencies for modules (/lib/modules/version/ all module info)

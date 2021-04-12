@@ -1,0 +1,12 @@
+What is a kernel module?
+- Code that can be loaded and unloaded from kernel.
+- Wont have to build or reboot the kernel for a minor change (not monolithic)
+
+Use case:
+- File systems (loading and unloading on demand)
+- Device drivers (for plug and play)
+
+How does it get loaded?
+- Kernels calls kmod daemon which execcutes modprobe to load a module
+- modprobe is passed either module name as a string or a identifier (looks in /etc/modprobe.conf)
+- next it looks for dependencies in /lib/modules/kernel_version/modules.dep
