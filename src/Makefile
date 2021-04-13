@@ -2,7 +2,7 @@
 # ref: https://www.kernel.org/doc/html/v5.6/kbuild/modules.html
 #how do i pass argumets to this ahhh
 
-MODULE_FILENAME = 01-printk
+MODULE_FILENAME = 02-arg-parse
 
 obj-m   += $(MODULE_FILENAME).o
 KO_FILE  = $(MODULE_FILENAME).ko
