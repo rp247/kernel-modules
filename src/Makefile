@@ -2,7 +2,7 @@
 # ref: https://www.kernel.org/doc/html/v5.6/kbuild/modules.html
 #how do i pass argumets to this ahhh
 
-MODULE_FILENAME = 00-hello-kernel
+MODULE_FILENAME = 01-printk
 
 obj-m   += $(MODULE_FILENAME).o
 KO_FILE  = $(MODULE_FILENAME).ko
@@ -20,6 +20,7 @@ clean:
 
 insert: module
 	sudo insmod $(KO_FILE)
+	sudo dmesg | tail
 
 remove:
 	sudo rmmod $(MODULE_FILENAME)

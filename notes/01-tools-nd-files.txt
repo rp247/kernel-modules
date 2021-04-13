@@ -15,3 +15,4 @@ Files regarding kernel modules
 - /etc/modprobe.conf	:	config for when modprobe is called 
 - /etc/modules		:	modules to be loaded on boot
 - /lib/modules/.dep	:	dependencies for modules (/lib/modules/version/ all module info)
+- /dev/kmsg		:	to export ring buffer to userspace (for logs)

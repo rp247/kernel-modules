@@ -3,3 +3,4 @@ modules 	:	https://tldp.org/LDP/lkmpg/2.6/html/x121.html, https://linux-kernel-l
 smp		:	https://linux-kernel-labs.github.io/refs/heads/master/lectures/smp.html
 kern api	:	https://linux-kernel-labs.github.io/refs/heads/master/labs/kernel_api.html#lab-objectives
 kdb		:	
+export		:	https://www.kernel.org/doc/html/latest/core-api/symbol-namespaces.html

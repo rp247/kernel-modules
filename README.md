@@ -16,6 +16,7 @@ modules for kernel what and how (tba)
 
 2. Makefile
 - https://www.kernel.org/doc/html/v5.6/kbuild/modules.html
+- https://www.kernel.org/doc/Documentation/kbuild/modules.txt
 
 3. debugging
 - https://linux-kernel-labs.github.io/refs/heads/master/lectures/debugging.html

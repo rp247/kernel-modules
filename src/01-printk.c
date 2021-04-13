@@ -46,6 +46,8 @@
  * u32                     %u  	,  %x
  * s64                     %lld	,  %llx
  * u64                     %llu	,  %llx
+ * pointer		   %p (will print hashed)
+ * more specifiers	   https://www.kernel.org/doc/html/latest/core-api/printk-formats.html
  *
  */
 
