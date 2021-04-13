@@ -4,7 +4,12 @@ MODULE_() */
 #include <linux/kernel.h>
 #include <linux/module.h>
 
+static int  param1; 
+
+module_param(param1, int, 0000);		// module_parama (name of var, type, permissions??)
+
 static int __init arg_init(void) {
+	pr_info("Param1: %d\n", param1);
 	return 0;
 }
 
